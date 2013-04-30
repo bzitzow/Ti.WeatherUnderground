@@ -1,5 +1,11 @@
 <Alloy>
 	<Window class="container">
-				
+		<ImageView id="image" image="" />	
+		<Label id="weather" color="#900" shadowColor="#aaa" text="weather" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"
+            top="30" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <Label id="tempature" color="blue" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="50" 
+        	width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <Label id="time" color="black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="70" 
+        	width="Ti.UI.SIZE" height="Ti.UI.SIZE" />		
 	</Window>
 </Alloy>
